@@ -416,7 +416,7 @@ margin: 10px 0;
     }
 }
 /* Mobile horizontal scroll */
-@media (max-width: 768px) {
+@media (max-width: 1240px) {
     .slider-container {
         overflow-x: auto;
         -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
@@ -445,5 +445,6 @@ margin: 10px 0;
         scroll-snap-type: x mandatory;
     }
 }
+
 
 
