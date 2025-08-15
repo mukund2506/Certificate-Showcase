@@ -322,7 +322,7 @@ margin: 10px 0;
         padding-top: 15px;
     }
 .title{
-    font-size: 13px;
+    font-size: 10px;
 }
     .overlay h2 {
         font-size: 14px;
@@ -359,7 +359,7 @@ margin: 10px 0;
         font-size: 12px;
     }
     .title{
-    font-size: 13px;
+    font-size: 10px;
 }
     .overlay p {
         font-size: 10px;
@@ -445,3 +445,4 @@ margin: 10px 0;
         scroll-snap-type: x mandatory;
     }
 }
+
