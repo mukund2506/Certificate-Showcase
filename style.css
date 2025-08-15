@@ -410,9 +410,7 @@ margin: 10px 0;
 @media (max-width: 600px) {
     #goTopBtn {
         font-size: 16px;
-        padding: 15px;
-        bottom: 15px;
-        right: 15px;
+        padding: 15px 20px;
     }
 }
 /* Mobile horizontal scroll */
@@ -445,6 +443,7 @@ margin: 10px 0;
         scroll-snap-type: x mandatory;
     }
 }
+
 
 
 
