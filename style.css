@@ -381,7 +381,7 @@ margin: 10px 0;
     right: 20px;
     z-index: 999;
     font-size: 20px;
-    width: 3%;
+    width: 12%;
     border: none;
     outline: none;
     background-color: black;
@@ -443,6 +443,7 @@ margin: 10px 0;
         scroll-snap-type: x mandatory;
     }
 }
+
 
 
 
