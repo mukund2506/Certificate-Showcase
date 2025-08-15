@@ -415,3 +415,33 @@ margin: 10px 0;
         right: 15px;
     }
 }
+/* Mobile horizontal scroll */
+@media (max-width: 768px) {
+    .slider-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+        scrollbar-width: none; /* hide scrollbar for Firefox */
+    }
+
+    .slider-container::-webkit-scrollbar {
+        display: none; /* hide scrollbar for Chrome/Safari */
+    }
+
+    .slider {
+        display: flex;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .slide {
+        flex: 0 0 auto;
+        width: 80%; /* show one at a time on mobile */
+        scroll-snap-align: start;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .slider-container {
+        scroll-snap-type: x mandatory;
+    }
+}
