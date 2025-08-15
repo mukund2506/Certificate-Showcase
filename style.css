@@ -268,3 +268,109 @@ margin: 10px 0;
 .internship:hover .resume-img {
     transform: scale(1.05);
 }
+/* Tablet (900px and below) */
+@media (max-width: 900px) {
+    .slide {
+        min-width: 50%; /* Show 2 slides at a time */
+    }
+
+    .resume {
+        max-width: 60%;
+    }
+
+    .title-head {
+        font-size: 20px;
+    }
+
+.slide {
+    position: relative;
+    min-width: calc(100% / 1); /* Show 3 at a time */
+    box-sizing: border-box;
+    padding: 10px;
+}
+    .overlay h2 {
+        font-size: 16px;
+    }
+
+    .overlay p {
+        font-size: 12px;
+    }
+
+    .resume-img {
+        height: auto;
+    }
+}
+
+/* Mobile Large (600px and below) */
+@media (max-width: 600px) {
+    .slide {
+        min-width: 100%; /* Show 1 slide at a time */
+    }
+
+    .resume {
+        max-width: 90%;
+    }
+
+.slide {
+    position: relative;
+    min-width: calc(100% / 1); /* Show 3 at a time */
+    box-sizing: border-box;
+    padding: 10px;
+}
+    .title-head {
+        font-size: 18px;
+        padding-top: 15px;
+    }
+.title{
+    font-size: 13px;
+}
+    .overlay h2 {
+        font-size: 14px;
+    }
+
+    .overlay p {
+        font-size: 12px;
+    }
+
+    .overlay-resume {
+        width: 95%;
+        height: 96%;
+        margin: 2%;
+    }
+
+    .allletter {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .internship {
+        width: 90%;
+    }
+}
+
+/* Mobile Small (400px and below) */
+@media (max-width: 400px) {
+    .title-head {
+        font-size: 16px;
+    }
+
+    .overlay h2 {
+        font-size: 12px;
+    }
+    .title{
+    font-size: 13px;
+}
+    .overlay p {
+        font-size: 10px;
+    }
+
+    .resume {
+        max-width: 100%;
+        box-shadow: none;
+    }
+
+    .slider-container {
+        padding: 0;
+    }
+}
